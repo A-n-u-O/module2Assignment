@@ -1,0 +1,55 @@
+*{
+			box-sizing: border-box;
+			margin: 5px;
+			padding: 5px;
+			border: 2px solid black;
+		}
+		p{
+			float: right;
+			border: 2px solid black;
+			padding: 0px ;
+		}
+		p#no1{
+			background-color: #A52A2A;
+		}
+		p#no2{
+			background-color: #DEB887;
+		}
+		p#no3{
+			background-color: #F59EA0;
+		}
+		h1{
+			text-align: center;
+		}
+		p div{
+			text-align: center;
+			background-color: #FF7F50;
+			font-size: 100%;
+		}
+		/*for desktops*/
+		@media(min-width: 992px){
+			section{
+				background-color: #FF7F50;
+				width: 30%;
+				height: 200px;
+				float: right;
+			}
+		}
+		/*For tablet*/
+		@media(min-width: 768px) and (max-width: 991px){
+			section{
+			background-color: #FF7F50;
+			width: 75%;
+			height: 150px;
+			float: right;
+		}
+		}
+		/*For mobile*/
+		@media(max-width: 767px){
+			section{
+				width: 100%;
+				background-color: #FF7F50;
+				float: right;
+			}
+		}
+	
